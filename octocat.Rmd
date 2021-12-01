@@ -21,7 +21,6 @@ ggplot(iris) +
 
 ```{r another_example}
 y <- 45
-
-
+print(y)
 ```
 
