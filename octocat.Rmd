@@ -1,0 +1,19 @@
+---
+title: "New Title"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r iris_example}
+ggplot(iris) +
+  aes(x = Petal.Width) +
+  geom_histogram(color = "firebrick4",
+                 fill = "darkgreen")
+
+
+```
+
