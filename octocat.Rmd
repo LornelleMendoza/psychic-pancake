@@ -17,3 +17,11 @@ ggplot(iris) +
 
 ```
 
+<br>
+
+```{r another_example}
+y <- 45
+
+
+```
+
